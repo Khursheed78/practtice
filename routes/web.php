@@ -9,3 +9,6 @@ Route::get('/', function () {
 Route::get('practice',function(){
     return view('laravel-exceptions-renderer::components.card');
     });
+    Route::get('practices',function(){
+        return view('laravel-exceptions-renderer::components.card');
+        });
