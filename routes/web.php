@@ -13,11 +13,6 @@ Route::get('practice',function(){
         return view('laravel-exceptions-renderer::components.card');
         });
   
-        Route::get('exHH',function(){
-            return view('laravel-exceptions-renderer::components.card');
-            });
-             Route::get('newbranch',function(){
-            return view('laravel-exceptions-renderer::components.card');
-            });
+      
       
       
